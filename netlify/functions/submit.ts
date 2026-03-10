@@ -1,4 +1,3 @@
-import { Request } from '@netlify/functions';
 import axios from 'axios';
 
 export default async (req: Request) => {
