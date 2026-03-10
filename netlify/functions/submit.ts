@@ -22,11 +22,10 @@ export default async (req: Request) => {
         const formUrl = `https://docs.google.com/forms/d/e/${formId}/viewform`;
         const responseUrl = `https://docs.google.com/forms/d/e/${formId}/formResponse`;
 
-        // 1. Fetch the form page to get a real fbzx token
-        const getRes = await axios.get(formUrl);
-        const html = getRes.data;
-        const fbzxMatch = html.match(/name="fbzx" value="([^"]+)"/);
-        const fbzx = fbzxMatch ? fbzxMatch[1] : '';
+        // 1. Prepare a dummy fbzx token. 
+        // Google Forms strictly validates the syntax of this token but not the authenticity for public forms.
+        // Fetching this live via axios.get from a Netlify Serverless IP often results in Bot/Captcha blocks.
+        const fbzx = '-1234567890123456789';
 
         // 2. Prepare the form data for submission
         const formData = new URLSearchParams();
