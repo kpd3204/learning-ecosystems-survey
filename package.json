@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@netlify/functions": "^5.1.2",
     "@tailwindcss/vite": "^4.2.1",
     "@vercel/node": "^5.6.12",
     "axios": "^1.13.6",

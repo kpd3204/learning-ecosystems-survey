@@ -9,8 +9,8 @@ export async function submitToGoogleForm(formId: string, answers: Record<string,
     const isProd = import.meta.env.PROD;
 
     if (isProd) {
-      // Production: Use Vercel Serverless Function
-      const response = await fetch('/api/submit', {
+      // Production: Use Netlify Serverless Function
+      const response = await fetch('/.netlify/functions/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
