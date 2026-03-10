@@ -1,0 +1,1185 @@
+[
+  {
+    "title": "Age Group",
+    "type": 2,
+    "entry_id": "entry.32751407",
+    "options": [
+      "15-18",
+      "19-24",
+      "25-34",
+      "35-45",
+      "46-55",
+      "56+"
+    ]
+  },
+  {
+    "title": "Current City/Location",
+    "type": 0,
+    "entry_id": "entry.697045142",
+    "options": []
+  },
+  {
+    "title": "Which of the following best describes your current primary role?",
+    "type": 2,
+    "entry_id": "entry.1923221380",
+    "options": [
+      "School Student",
+      "College/University Student",
+      "Parent/Guardian of a Student",
+      "Teachers & Educators",
+      "Entry-Level Professional (0-5 Years Exp)",
+      "Experienced Professional (5+ Years Exp)",
+      "Employer / Hiring Manager",
+      "School / College Administrators",
+      "Education Experts / Policymakers",
+      "Counsellors & Wellbeing Professionals"
+    ]
+  },
+  {
+    "title": "How do you split your daily study time?",
+    "type": 2,
+    "entry_id": "entry.1425252221",
+    "options": [
+      "Only school",
+      "Mostly school, some tuitions",
+      "Equal split",
+      "Mostly tuitions/dummy school",
+      "Only tuitions",
+      "Primarily self-study"
+    ]
+  },
+  {
+    "title": "When you study for an exam, what is your main goal? ",
+    "type": 2,
+    "entry_id": "entry.765806255",
+    "options": [
+      "I want to understand how things work",
+      "I want to memorize what will come in the test",
+      "It depends on the subject",
+      "Honestly, I'm trying to get done with it"
+    ]
+  },
+  {
+    "title": "What is your biggest reason for studying right now?",
+    "type": 2,
+    "entry_id": "entry.467922558",
+    "options": [
+      "To learn new skills and explore",
+      "Preparing for board or entrance exams",
+      "Fear of falling behind peers",
+      "Keeping up with academic expectations",
+      ""
+    ]
+  },
+  {
+    "title": "How would you describe the level of academic pressure you currently experience?",
+    "type": 2,
+    "entry_id": "entry.329413005",
+    "options": [
+      "Extremely high",
+      "High",
+      "Moderate",
+      "Low",
+      "None at all"
+    ]
+  },
+  {
+    "title": "How often does your learning involve hands-on activities such as projects, experiments, or building things?",
+    "type": 2,
+    "entry_id": "entry.1355986295",
+    "options": [
+      "Daily",
+      "Weekly",
+      "Rarely",
+      "Never"
+    ]
+  },
+  {
+    "title": "Outside of exams and textbooks, what skills do you feel you need to develop? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.2059375593",
+    "options": [
+      "Thinking independently and forming my own opinions",
+      "Working collaboratively with others",
+      "Taking initiative and trying new things",
+      "Basic financial or money management skills",
+      "Understanding my own values and interests",
+      "Managing my emotions and relationships",
+      "Complex, non-linear problem solving",
+      "Creative & Speculative Thinking",
+      ""
+    ]
+  },
+  {
+    "title": "Is the school helping you in developing any of these skills?",
+    "type": 2,
+    "entry_id": "entry.1770901762",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe"
+    ]
+  },
+  {
+    "title": "Do you ever explore topics or learn new things on your own, outside of schoolwork? If yes, what and how?",
+    "type": 1,
+    "entry_id": "entry.1328170802",
+    "options": []
+  },
+  {
+    "title": "How do you access the internet and digital devices for learning at home? ",
+    "type": 2,
+    "entry_id": "entry.81430863",
+    "options": [
+      "I have my own dedicated laptop/tablet and stable internet",
+      "I share a smartphone or device with other family members",
+      "I have very limited or no access to digital devices",
+      ""
+    ]
+  },
+  {
+    "title": "When teachers use technology in class (such as videos, apps, or smartboards), how does it affect your experience?",
+    "type": 2,
+    "entry_id": "entry.1363554638",
+    "options": [
+      "It makes the class noticeably more engaging",
+      "It helps sometimes, depending on how it is used",
+      "It does not make much of a difference either way",
+      "It is less engaging than a regular lecture",
+      "We do not use much technology in class"
+    ]
+  },
+  {
+    "title": " If you use AI tools such as ChatGPT for schoolwork, how do you typically use them?",
+    "type": 2,
+    "entry_id": "entry.1113088066",
+    "options": [
+      "I copy-paste the answers directly without reading them closely",
+      "I use it as a starting point, but I critically evaluate and rewrite the output",
+      "I use it as a tool to compile all my research",
+      "I do not use AI tools",
+      ""
+    ]
+  },
+  {
+    "title": "When you think about your future, how do you personally define success for yourself? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1169093603",
+    "options": [
+      "Achieving a high level of expertise or leadership in my chosen field",
+      "Attaining financial stability and independence",
+      "The ability to continuously learn, evolve, and take on new challenges",
+      "Achieving a healthy balance between work and personal well-being",
+      "Contributing to the community or solving meaningful problems",
+      "Earning the respect and recognition of my peers and industry",
+      "Securing a predictable and stable career path",
+      ""
+    ]
+  },
+  {
+    "title": "If you could magically change one thing to build your absolute dream school, what would it be?",
+    "type": 0,
+    "entry_id": "entry.2098517042",
+    "options": []
+  },
+  {
+    "title": "How would you rate the balance between theoretical learning and hands-on practice in your course? ",
+    "type": 5,
+    "entry_id": "entry.1808699772",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "How confident are you that your degree will help you find a job after graduation?",
+    "type": 5,
+    "entry_id": "entry.790386759",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "How relevant do you feel your course content is to what is currently happening in your field? ",
+    "type": 2,
+    "entry_id": "entry.1529341506",
+    "options": [
+      "Completely up-to-date",
+      "Mostly relevant",
+      "Somewhat outdated",
+      "Mostly outdated",
+      "Entirely outdated"
+    ]
+  },
+  {
+    "title": "How do you feel when you think about graduating and looking for a job?",
+    "type": 2,
+    "entry_id": "entry.1125928068",
+    "options": [
+      "Excitement and readiness.",
+      "A feeling of being unprepared for the real world.",
+      "Anxiety and fear of the unknown.",
+      ""
+    ]
+  },
+  {
+    "title": "How does your college mainly test you?",
+    "type": 2,
+    "entry_id": "entry.1441274330",
+    "options": [
+      "100% traditional written exams.",
+      "A mix of traditional written exams and some practical lab work.",
+      "Mostly projects and continuous assignments",
+      ""
+    ]
+  },
+  {
+    "title": "Do you check AI-generated answers (like ChatGPT) for mistakes or biases before using them in college work?",
+    "type": 2,
+    "entry_id": "entry.1755610450",
+    "options": [
+      "I usually trust the AI's output",
+      "I cross-verify it, but mostly trust it.",
+      "I always critically verify the facts and biases before using it.",
+      ""
+    ]
+  },
+  {
+    "title": "Which of these skills do you feel you need to develop? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1187535366",
+    "options": [
+      "Complex, non-linear problem solving",
+      "Emotional intelligence and cross-cultural collaboration",
+      "Meta-learning (how to independently learn new things quickly)",
+      "Entrepreneurial risk-taking and resilience",
+      "Basic financial or money management skills",
+      "Creative & Speculative Thinking",
+      "AI / Digital Literacy",
+      ""
+    ]
+  },
+  {
+    "title": "Is your college helping you in developing these skills?",
+    "type": 2,
+    "entry_id": "entry.286268801",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe"
+    ]
+  },
+  {
+    "title": "How would you describe the learning culture among students at your college?",
+    "type": 2,
+    "entry_id": "entry.767255302",
+    "options": [
+      "Highly collaborative and supportive",
+      "Somewhat collaborative",
+      "Competitive",
+      ""
+    ]
+  },
+  {
+    "title": "Do you feel your college is preparing you to be an active problem-solver or a passive follower of instructions? ",
+    "type": 5,
+    "entry_id": "entry.373521544",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "Where do you learn the most useful skills for your future career? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.141638071",
+    "options": [
+      "College Lectures",
+      "College Clubs & Projects",
+      "External platforms like YouTube & Coursera",
+      "Internships",
+      ""
+    ]
+  },
+  {
+    "title": "How confident do you feel about starting your career right now?",
+    "type": 2,
+    "entry_id": "entry.843893997",
+    "options": [
+      "Very Confident",
+      "Somewhat Confident",
+      "Neutral",
+      "Anxious",
+      "Completely Unprepared"
+    ]
+  },
+  {
+    "title": "When you need to learn something new, which approach best describes you? ",
+    "type": 2,
+    "entry_id": "entry.1614419671",
+    "options": [
+      "I can generally figure it out on my own",
+      "I prefer having a teacher or structured course",
+      "A mix of both",
+      ""
+    ]
+  },
+  {
+    "title": "If you could magically change one thing about college education, what would it be?",
+    "type": 0,
+    "entry_id": "entry.1734373957",
+    "options": []
+  },
+  {
+    "title": "What differences, if any, do you notice between what you learn in college and what employers seem to expect?",
+    "type": 1,
+    "entry_id": "entry.1068859353",
+    "options": []
+  },
+  {
+    "title": "How do you decide if a school or college is actually good for your child? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1022846489",
+    "options": [
+      "I rely on official rankings and advertised placement data",
+      "I prioritize infrastructure and campus facilities",
+      "I depend on word-of-mouth from other parents",
+      "I focus on the school's teaching philosophy and the holistic development they offer",
+      "I evaluate the institution based on the total cost of education",
+      "I value the prestige of the institution",
+      ""
+    ]
+  },
+  {
+    "title": "Has spending on private tuitions or coaching created a financial impact on your household?",
+    "type": 2,
+    "entry_id": "entry.1032073785",
+    "options": [
+      "Yes, it is a significant financial strain and we have considered or taken educational loans",
+      "Yes, it is noticeable but manageable without loans",
+      "No, we do not spend much on supplementary education",
+      ""
+    ]
+  },
+  {
+    "title": "Do you feel the school focuses enough on your child’s emotional and holistic development (values, empathy, resilience)?",
+    "type": 2,
+    "entry_id": "entry.1059495695",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Not Sure"
+    ]
+  },
+  {
+    "title": "In your observation, what does the current schooling assessment system do to your child's natural curiosity and critical thinking? ",
+    "type": 2,
+    "entry_id": "entry.944428335",
+    "options": [
+      "It actively encourages them to question and explore",
+      "It has no real effect, curiosity comes from home, not school",
+      "It creates a tension : curious at home, compliant at school",
+      "I'm not sure",
+      ""
+    ]
+  },
+  {
+    "title": "What is your current preference for your child's supplementary learning?",
+    "type": 2,
+    "entry_id": "entry.1498226646",
+    "options": [
+      "Online learning through apps and digital platforms",
+      "A blended model combining digital content with physical learning spaces",
+      "Traditional, in-person learning without digital platforms",
+      ""
+    ]
+  },
+  {
+    "title": "How often do you feel social or family pressure to steer your child toward specific career paths or higher marks? ",
+    "type": 2,
+    "entry_id": "entry.494075515",
+    "options": [
+      "Always",
+      "Often",
+      "Sometimes",
+      "Rarely",
+      "Never"
+    ]
+  },
+  {
+    "title": "What does educational success mean to you for your child? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1105422705",
+    "options": [
+      "High board marks",
+      "Securing a high-paying job",
+      "Discovering their passion",
+      "Becoming a good human being",
+      "Being adaptable to future changes",
+      ""
+    ]
+  },
+  {
+    "title": "Imagine your child wants to spend a weekend working on a personal project unrelated to schoolwork. What is your honest reaction? ",
+    "type": 2,
+    "entry_id": "entry.1806250010",
+    "options": [
+      "I would be excited and supportive",
+      "I would feel positive, but have some concerns about keeping up academically",
+      "I would want to know whether it has relevance to their future first",
+      "I would be concerned about time away from studies",
+      ""
+    ]
+  },
+  {
+    "title": "What is your biggest worry about your child's education and future? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1030546637",
+    "options": [
+      "That they won't score high enough to get into a premier college.",
+      "That they will get a degree but lack the practical skills to find a job.",
+      "That their chosen career path will be automated by AI.",
+      "That the intense pressure will severely impact their mental health.",
+      ""
+    ]
+  },
+  {
+    "title": "Is the school preparing your child well for a fast-changing, tech-driven world?",
+    "type": 2,
+    "entry_id": "entry.133074904",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Not Sure"
+    ]
+  },
+  {
+    "title": "Which important life skill is the school failing to teach your child? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1160417956",
+    "options": [
+      "Adaptability & Resilience",
+      "Creative & Speculative Thinking",
+      "Financial Literacy",
+      "Mental Health Management",
+      "Complex, non-linear problem solving",
+      "Emotional intelligence and cross-cultural collaboration",
+      "AI / Digital Literacy",
+      ""
+    ]
+  },
+  {
+    "title": "Would you enroll your child in a new type of learning ecosystem that focuses on life skills and problem-solving instead of just exams?",
+    "type": 2,
+    "entry_id": "entry.387621047",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe"
+    ]
+  },
+  {
+    "title": "What human qualities or life skills do you want your child to have by age 25 that the school isn't teaching?",
+    "type": 1,
+    "entry_id": "entry.1849874639",
+    "options": []
+  },
+  {
+    "title": "What was your own experience with the Indian education system, and how do you want your child's experience to be different?",
+    "type": 1,
+    "entry_id": "entry.846733578",
+    "options": []
+  },
+  {
+    "title": "How much freedom do you have to step away from the syllabus and do hands-on projects with your students?",
+    "type": 5,
+    "entry_id": "entry.1210665162",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "Are your students depending too much on AI tools (like ChatGPT) for their schoolwork?",
+    "type": 5,
+    "entry_id": "entry.701148521",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "Are you getting good training on how to teach with digital tools, or are you expected to learn it on your own?",
+    "type": 2,
+    "entry_id": "entry.1431081452",
+    "options": [
+      "Excellent training is provided",
+      "Relevant training is provided",
+      "Training is provided, but it is outdated",
+      "No training is provided",
+      ""
+    ]
+  },
+  {
+    "title": "What is the biggest hurdle in testing students through projects instead of regular written exams?",
+    "type": 2,
+    "entry_id": "entry.86912613",
+    "options": [
+      "Rigid administrative frameworks.",
+      "Lack of professional training.",
+      "Pushback from parents who prefer traditional grading.",
+      "Large class sizes",
+      ""
+    ]
+  },
+  {
+    "title": "How do you actively teach problem-solving in your class? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1408134718",
+    "options": [
+      "Case studies",
+      "Design thinking exercises",
+      "Open debates",
+      "Peer-to-peer teaching",
+      "I currently do not have time for these approaches",
+      ""
+    ]
+  },
+  {
+    "title": "Do you believe regular exams accurately measure if a student is ready for the real world?",
+    "type": 2,
+    "entry_id": "entry.1151807619",
+    "options": [
+      "Yes",
+      "No",
+      ""
+    ]
+  },
+  {
+    "title": "How do you feel about new digital teaching tools when they are introduced in your school?",
+    "type": 2,
+    "entry_id": "entry.1430699738",
+    "options": [
+      "They help me teach more effectively",
+      "They take adjustment time but usually add some value",
+      "I use them because it is expected",
+      "They add workload without meaningful benefit for students",
+      ""
+    ]
+  },
+  {
+    "title": "How often do you feel forced to focus on finishing the syllabus for exams rather than building students' thinking skills?",
+    "type": 5,
+    "entry_id": "entry.294687743",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "What typically happens when a student gives an unconventional answer or challenges the textbook?",
+    "type": 2,
+    "entry_id": "entry.228466408",
+    "options": [
+      "It is discussed",
+      "It is acknowledged briefly",
+      "It is ignored due to time constraints",
+      "The student is asked to stick to the syllabus",
+      ""
+    ]
+  },
+  {
+    "title": "In your observation, how ready is the school system to move toward real-world skill development? ",
+    "type": 2,
+    "entry_id": "entry.820785734",
+    "options": [
+      "Very ready, meaningful changes are already visible",
+      "Progressing slowly",
+      "Largely held back by institutional resistance to change",
+      "Traditional methods remain firmly in place",
+      ""
+    ]
+  },
+  {
+    "title": "Do you personally invest in your own professional growth as a teacher?",
+    "type": 2,
+    "entry_id": "entry.2004863209",
+    "options": [
+      "Actively",
+      "Ocassionally",
+      "Rarely",
+      "I do not"
+    ]
+  },
+  {
+    "title": "How prepared do you feel to incorporate AI tools into your teaching practice?",
+    "type": 2,
+    "entry_id": "entry.715040067",
+    "options": [
+      "Fully prepared and already using them",
+      "Somewhat prepared",
+      "Eager but lack training",
+      "Skeptical and resistant",
+      ""
+    ]
+  },
+  {
+    "title": "If the syllabus and exam requirements were not a constraint, what would your teaching look like?",
+    "type": 1,
+    "entry_id": "entry.1453766508",
+    "options": []
+  },
+  {
+    "title": "How well did your college degree prepare you for the day-to-day tasks of your current role?",
+    "type": 5,
+    "entry_id": "entry.1263905497",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "What aspects of starting work were most different from what you expected? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1698331256",
+    "options": [
+      "The nature of internal workplace communication",
+      "Dealing with unstructured or ambiguous problems",
+      "The pace of work",
+      "Finding that some of my degree knowledge was not directly applicable",
+      "Moving from following a guided syllabus to managing your own time and outcomes.",
+      "Managing professional failures or iterations",
+      ""
+    ]
+  },
+  {
+    "title": "Which important thinking or people skill was missing from your college education? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.2117557337",
+    "options": [
+      "Emotional intelligence",
+      "Understanding how different processes connect.",
+      "The ability to adapt to sudden changes",
+      "Resilience in the face of failure",
+      "Cross-cultural communication",
+      "Empathy",
+      "I was taught everything",
+      ""
+    ]
+  },
+  {
+    "title": "How often do you use the theories you studied in college at your job?",
+    "type": 5,
+    "entry_id": "entry.208383132",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "How would you describe your confidence in communication and adaptability when you first started working?",
+    "type": 5,
+    "entry_id": "entry.1108476021",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "Is your current job directly related to what you studied in college?",
+    "type": 2,
+    "entry_id": "entry.79578918",
+    "options": [
+      "Yes.",
+      "No",
+      "Somewhat",
+      ""
+    ]
+  },
+  {
+    "title": "How did you primarily acquire the skills you use most in your work today? ",
+    "type": 2,
+    "entry_id": "entry.1912388427",
+    "options": [
+      "During my formal university degree",
+      "Through on-the-job training and mentorship",
+      "Myself using online courses, YouTube, and similar resources",
+      "Through an internship or vocational program.",
+      ""
+    ]
+  },
+  {
+    "title": "How did your education shape your attitude toward taking risks and making mistakes? ",
+    "type": 2,
+    "entry_id": "entry.452481934",
+    "options": [
+      "It generally encouraged me to avoid risks and mistakes",
+      "It encouraged risk-taking and innovation",
+      ""
+    ]
+  },
+  {
+    "title": "If you could advise your younger self on how to prepare for jobs, what would you say?",
+    "type": 1,
+    "entry_id": "entry.1838263578",
+    "options": []
+  },
+  {
+    "title": "What is one mindset your college should have taught you to make you ready for the future?",
+    "type": 1,
+    "entry_id": "entry.517136453",
+    "options": []
+  },
+  {
+    "title": "Since leaving college, have you become more curious or less curious about learning new things?",
+    "type": 1,
+    "entry_id": "entry.530202998",
+    "options": []
+  },
+  {
+    "title": "Looking back, how much of your career success do you attribute to your formal education versus what you learned on the job?",
+    "type": 2,
+    "entry_id": "entry.776908001",
+    "options": [
+      "Entirely formal education",
+      "Mostly formal education",
+      "Equal mix",
+      "Mostly on the job",
+      "Entirely on the job"
+    ]
+  },
+  {
+    "title": "What is the biggest challenge you and your colleagues face at work today? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.658233883",
+    "options": [
+      "Struggling to innovate or think creatively",
+      "Poor leadership & communication skills",
+      "Inability to adapt to new technology",
+      "Lack of core domain expertise",
+      "None",
+      ""
+    ]
+  },
+  {
+    "title": "What skills are missing in the fresh graduates you work with today? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1888704956",
+    "options": [
+      "Long term and systems-thinking",
+      "Empathy & collaboration",
+      "Risk-taking & experimentation",
+      "Cross-disciplinary knowledge",
+      ""
+    ]
+  },
+  {
+    "title": "In your view, does India's cultural emphasis on certain career paths limit the development of innovative leaders?",
+    "type": 2,
+    "entry_id": "entry.429142604",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      ""
+    ]
+  },
+  {
+    "title": "Did the pressure from your school days make you more afraid to take risks in your career?",
+    "type": 2,
+    "entry_id": "entry.1506391164",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe"
+    ]
+  },
+  {
+    "title": "When faced with an ambiguous or unclear problem at work, how do you typically see colleagues respond?",
+    "type": 2,
+    "entry_id": "entry.1501291766",
+    "options": [
+      "They pause and wait for clearer direction",
+      "They execute a familiar, well-tested approach immediately",
+      "They step back and rethink the problem from the ground up",
+      ""
+    ]
+  },
+  {
+    "title": "How do you stay current and continue learning in your field? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.87003718",
+    "options": [
+      "Company-sponsored training",
+      "Self-driven online courses",
+      "Learning from peers and networking",
+      "I do not currently have an active upskilling routine",
+      ""
+    ]
+  },
+  {
+    "title": "What practical experience do you wish you had during your college days? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1295143551",
+    "options": [
+      "Building or contributing to a startup or new initiative",
+      "Engaging in projects that integrate knowledge from multiple fields of study",
+      "Participating in community-based or social impact work",
+      "Deep exposure to and application of advanced technologies",
+      "Practical experience in project budgeting or financial management",
+      ""
+    ]
+  },
+  {
+    "title": "What is your top advice for a first-year college student today?",
+    "type": 1,
+    "entry_id": "entry.1218810893",
+    "options": []
+  },
+  {
+    "title": "How hard is it to find candidates who understand multiple subjects (for example, a coder who also understands design)?",
+    "type": 5,
+    "entry_id": "entry.1773358810",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "What human qualities are most important to you in new hires? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1285139593",
+    "options": [
+      "The ability to navigate ambiguity without needing direction",
+      "Intellectual curiosity and a drive to learn independently",
+      "Emotional intelligence",
+      "Cross-cultural collaboration",
+      "Ethical reasoning",
+      "Critical evaluation of information",
+      "The ability to fail and iterate",
+      ""
+    ]
+  },
+  {
+    "title": "What is the biggest skill missing in fresh graduates today? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.1956518244",
+    "options": [
+      "Technical or domain proficiency",
+      "Independent and critical thinking",
+      "Communication",
+      "Emotional intelligence",
+      "Adaptability and the ability to learn new systems",
+      ""
+    ]
+  },
+  {
+    "title": "How good are recent graduates at solving problems on their own?",
+    "type": 2,
+    "entry_id": "entry.942361107",
+    "options": [
+      "Excellent",
+      "Good",
+      "Average",
+      "Below Average",
+      "Poor"
+    ]
+  },
+  {
+    "title": "Are colleges updating their courses fast enough to match what your industry needs?",
+    "type": 2,
+    "entry_id": "entry.1114598202",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      ""
+    ]
+  },
+  {
+    "title": "Compared to ten years ago, how important is it for employees to have knowledge outside their core subject area?",
+    "type": 5,
+    "entry_id": "entry.1372381564",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "Do you think a traditional college degree will hold the same value in the job market ten years from now? ",
+    "type": 2,
+    "entry_id": "entry.2043557429",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe"
+    ]
+  },
+  {
+    "title": "What is the most important change you believe colleges must make to better prepare graduates for the workforce in the next decade?",
+    "type": 1,
+    "entry_id": "entry.598364514",
+    "options": []
+  },
+  {
+    "title": "How do parents and society most commonly measure the success of your institution? ",
+    "type": 2,
+    "entry_id": "entry.1148872791",
+    "options": [
+      "Board/University ranks & marks",
+      "Placement & salary packages",
+      "Holistic student well-being",
+      "Innovation & alumni impact",
+      ""
+    ]
+  },
+  {
+    "title": "How challenging is it to balance parent expectations around academics with the goal of teaching broader real-world skills?",
+    "type": 5,
+    "entry_id": "entry.956826350",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "Is your campus ready to move from standard classrooms to interactive, project-based spaces?",
+    "type": 5,
+    "entry_id": "entry.579873331",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "What stops your school/college from updating the way students learn? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.878762614",
+    "options": [
+      "Government policy rigidity",
+      "Lack of funding",
+      "Resistance from parents",
+      "Resistance from teachers",
+      "Outdated infrastructure",
+      ""
+    ]
+  },
+  {
+    "title": "Have you successfully combined different subjects (like arts with science) in your courses?",
+    "type": 2,
+    "entry_id": "entry.287099192",
+    "options": [
+      "Yes",
+      "No",
+      ""
+    ]
+  },
+  {
+    "title": "How difficult is it for your teachers to adapt to new teaching methods?",
+    "type": 5,
+    "entry_id": "entry.1097045264",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "If you had unlimited resources to redesign your institution, what is the first thing you would change?",
+    "type": 1,
+    "entry_id": "entry.935466135",
+    "options": []
+  },
+  {
+    "title": "What do you find is the most persistent challenge in shifting the mindset of a school or college?",
+    "type": 1,
+    "entry_id": "entry.11748407",
+    "options": []
+  },
+  {
+    "title": "How fast are the NEP 2020 changes reaching the classrooms?",
+    "type": 5,
+    "entry_id": "entry.1714445605",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "What are the most significant barriers to scaling hands-on, practical learning across the country? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.485252786",
+    "options": [
+      "Inadequate budget/infrastructure",
+      "Resistance from parents and society",
+      "Lack of teacher capacity and training",
+      "Rigid assessment structures like Board Exams",
+      ""
+    ]
+  },
+  {
+    "title": "Which metrics do you feel the government and education system prioritise most right now? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.268695899",
+    "options": [
+      "Gross Enrolment Ratio",
+      "Board Exam Pass Percentages",
+      "Employability & Skill indexes",
+      "Global rankings",
+      ""
+    ]
+  },
+  {
+    "title": "Will we be able to close the digital gap between city and village schools in the next 10 years?",
+    "type": 2,
+    "entry_id": "entry.1928421055",
+    "options": [
+      "Highly confident",
+      "Somewhat confident",
+      "Neutral",
+      "Doubtful"
+    ]
+  },
+  {
+    "title": "How frequently do syllabus creators and policymakers engage with industry to understand current skill requirements? ",
+    "type": 5,
+    "entry_id": "entry.1351349518",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "title": "If you had the executive power to bypass bureaucratic hurdles, what foundational structure in the Indian education system would you change tomorrow?",
+    "type": 1,
+    "entry_id": "entry.1564481453",
+    "options": []
+  },
+  {
+    "title": "In what kind of institution do you currently work?",
+    "type": 2,
+    "entry_id": "entry.1058878593",
+    "options": [
+      "Private English-medium school",
+      "Government or government-aided school",
+      "International school",
+      "College or university counselling centre",
+      "Private practice",
+      ""
+    ]
+  },
+  {
+    "title": "What best describes your main role right now? ",
+    "type": 2,
+    "entry_id": "entry.1462755164",
+    "options": [
+      "Genuine support for student wellbeing and identity development",
+      "Mainly academic/career guidance (college applications, stream selection)",
+      "Crisis management, I mostly see students when something has gone wrong",
+      "A combination of all three",
+      "A role that exists on paper more than in practice",
+      ""
+    ]
+  },
+  {
+    "title": "What do students talk about the most when they speak to you privately? (Tick all that apply)",
+    "type": 4,
+    "entry_id": "entry.799423776",
+    "options": [
+      "Academic pressure and exam anxiety",
+      "Conflict with parents about career or subject choices",
+      "Confusion about who they are and what they want",
+      "Social belonging and peer relationships",
+      "Feeling like they're not smart or capable enough",
+      "Fear of the future and not knowing what comes next",
+      "Mental health concerns (sleep, appetite, mood)",
+      "Wanting to pursue something their parents or school don't value",
+      ""
+    ]
+  },
+  {
+    "title": "Do students show their true feelings about studying to their parents and teachers, or only to you?",
+    "type": 2,
+    "entry_id": "entry.1874327505",
+    "options": [
+      "Yes, students are generally consistent across contexts",
+      "No, students present as more confident and compliant to teachers than they really are",
+      "No, students present as more stressed and disengaged than they really are when talking to parents",
+      "The student I see privately and the one in the classroom are almost different people",
+      "It varies widely depending on the student"
+    ]
+  },
+  {
+    "title": "How prepared are students for life after school (college or work)?",
+    "type": 2,
+    "entry_id": "entry.941141523",
+    "options": [
+      "Very well prepared",
+      "Academically prepared but emotionally underprepared",
+      "Unclear about their identity and anxious about the loss of structure",
+      "Significantly underprepared"
+    ]
+  },
+  {
+    "title": "If you could create one thing (a tool, a space, a program) to truly help students, what would it be?",
+    "type": 1,
+    "entry_id": "entry.973184811",
+    "options": []
+  },
+  {
+    "title": "What is the one thing students wish their parents understood about their school life?",
+    "type": 1,
+    "entry_id": "entry.2108733197",
+    "options": []
+  }
+]
