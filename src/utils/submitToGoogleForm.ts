@@ -3,7 +3,7 @@
  * In Development: Uses Vite proxy to /google-form
  * In Production: Uses Vercel Serverless Function to /api/submit
  */
-export async function submitToGoogleForm(formId: string, answers: Record<string, string | string[]>) {
+export async function submitToGoogleForm(formId: string, answers: Record<string, string | string[]>, pageHistory: string = '0') {
   try {
     // Check if we are running in a production environment (like Vercel)
     const isProd = import.meta.env.PROD;
@@ -15,7 +15,7 @@ export async function submitToGoogleForm(formId: string, answers: Record<string,
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ formId, answers }),
+        body: JSON.stringify({ formId, answers, pageHistory }),
       });
 
       if (!response.ok) {
@@ -42,7 +42,7 @@ export async function submitToGoogleForm(formId: string, answers: Record<string,
       });
 
       formData.append('fbzx', fbzx);
-      formData.append('pageHistory', '0');
+      formData.append('pageHistory', pageHistory);
 
       const submitRes = await fetch(responseUrl, {
         method: 'POST',

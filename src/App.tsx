@@ -12,9 +12,9 @@ function App() {
   // but matches the structure at runtime
   const config = formConfig as any;
 
-  const handleSubmit = async (answers: AnswerMap) => {
+  const handleSubmit = async (answers: AnswerMap, pageHistory: string) => {
     setIsSubmitting(true);
-    const success = await submitToGoogleForm(config.formId, answers);
+    const success = await submitToGoogleForm(config.formId, answers, pageHistory);
     setIsSubmitting(false);
     if (success) {
       setIsSubmitted(true);

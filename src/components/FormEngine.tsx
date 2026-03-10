@@ -23,7 +23,7 @@ interface FormEngineProps {
         branches: Record<string, QuestionType[]>;
         commonFinal: QuestionType[];
     };
-    onSubmit: (answers: AnswerMap) => void;
+    onSubmit: (answers: AnswerMap, pageHistory: string) => void;
 }
 
 export default function FormEngine({ config, onSubmit }: FormEngineProps) {
@@ -91,7 +91,10 @@ export default function FormEngine({ config, onSubmit }: FormEngineProps) {
     };
 
     const handleSubmit = async () => {
-        onSubmit(answers);
+        const roleQuestion = config.commonInitial.find(q => q.entry_id === 'entry.1923221380');
+        const branchIndex = roleQuestion && typeof roleAnswer === 'string' ? roleQuestion.options.indexOf(roleAnswer) : -1;
+        const pageHistory = branchIndex >= 0 ? `0,${branchIndex + 1}` : '0';
+        onSubmit(answers, pageHistory);
     };
 
     if (!currentQuestion) return null;

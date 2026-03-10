@@ -10,7 +10,7 @@ export default async (req: Request) => {
 
     try {
         const body = await req.json();
-        const { formId, answers } = body;
+        const { formId, answers, pageHistory = '0' } = body;
 
         if (!formId || !answers) {
             return new Response(JSON.stringify({ error: 'Missing formId or answers' }), {
@@ -39,7 +39,7 @@ export default async (req: Request) => {
         });
 
         formData.append('fbzx', fbzx);
-        formData.append('pageHistory', '0');
+        formData.append('pageHistory', pageHistory);
 
         // 3. Submit to Google Forms
         await axios.post(responseUrl, formData.toString(), {
