@@ -78,7 +78,7 @@ export default function SwipeCard({ options, onSwipe }: SwipeCardProps) {
                         style={{ opacity: upOpacity }}
                         className="text-center max-w-[240px] mb-auto z-0"
                     >
-                        <span className="inline-block text-xs md:text-sm font-bold text-blue-700 bg-blue-100/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-md border border-blue-200">
+                        <span className="inline-block text-sm md:text-base font-bold text-blue-700 bg-blue-100/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-md border border-blue-200">
                             ↑ {upOption}
                         </span>
                     </motion.div>
@@ -91,7 +91,7 @@ export default function SwipeCard({ options, onSwipe }: SwipeCardProps) {
                             style={{ opacity: leftOpacity }}
                             className="max-w-[90px] md:max-w-[120px] text-left"
                         >
-                            <span className="inline-block text-[10px] md:text-sm font-bold text-rose-700 bg-rose-100/90 backdrop-blur-sm px-2 md:px-3 py-2 rounded-full shadow-md border border-rose-200 leading-tight">
+                            <span className="inline-block text-sm md:text-base font-bold text-rose-700 bg-rose-100/90 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full shadow-md border border-rose-200 leading-tight">
                                 ← {leftOption}
                             </span>
                         </motion.div>
@@ -102,7 +102,7 @@ export default function SwipeCard({ options, onSwipe }: SwipeCardProps) {
                             style={{ opacity: rightOpacity }}
                             className="max-w-[90px] md:max-w-[120px] text-right"
                         >
-                            <span className="inline-block text-[10px] md:text-sm font-bold text-emerald-700 bg-emerald-100/90 backdrop-blur-sm px-2 md:px-3 py-2 rounded-full shadow-md border border-emerald-200 leading-tight">
+                            <span className="inline-block text-sm md:text-base font-bold text-emerald-700 bg-emerald-100/90 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full shadow-md border border-emerald-200 leading-tight">
                                 {rightOption} →
                             </span>
                         </motion.div>
@@ -114,7 +114,7 @@ export default function SwipeCard({ options, onSwipe }: SwipeCardProps) {
                         style={{ opacity: downOpacity }}
                         className="text-center max-w-[240px] mt-auto z-0"
                     >
-                        <span className="inline-block text-xs md:text-sm font-bold text-amber-700 bg-amber-100/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-md border border-amber-200">
+                        <span className="inline-block text-sm md:text-base font-bold text-amber-700 bg-amber-100/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-md border border-amber-200">
                             {downOption} ↓
                         </span>
                     </motion.div>
@@ -125,7 +125,7 @@ export default function SwipeCard({ options, onSwipe }: SwipeCardProps) {
             <div className="absolute inset-0 pointer-events-none flex flex-col items-center justify-between p-4 px-1 opacity-40">
                 {upOption && (
                     <div className="text-center mb-auto">
-                        <span className="text-[10px] font-semibold text-blue-500 bg-blue-50 px-3 py-1.5 rounded-full border border-blue-100">
+                        <span className="text-xs md:text-sm font-semibold text-blue-500 bg-blue-50 px-3 py-1.5 rounded-full border border-blue-100">
                             ↑ {upOption}
                         </span>
                     </div>
@@ -133,14 +133,14 @@ export default function SwipeCard({ options, onSwipe }: SwipeCardProps) {
                 <div className="w-full flex justify-between items-center absolute top-1/2 -translate-y-1/2 px-1">
                     {leftOption ? (
                         <div className="max-w-[80px] md:max-w-[100px]">
-                            <span className="inline-block text-[10px] font-semibold text-rose-500 bg-rose-50 px-2 py-1.5 rounded-full leading-tight border border-rose-100">
+                            <span className="inline-block text-xs md:text-sm font-semibold text-rose-500 bg-rose-50 px-3 py-1.5 rounded-full leading-tight border border-rose-100">
                                 ← {leftOption}
                             </span>
                         </div>
                     ) : <div />}
                     {rightOption ? (
                         <div className="max-w-[80px] md:max-w-[100px] text-right">
-                            <span className="inline-block text-[10px] font-semibold text-emerald-500 bg-emerald-50 px-2 py-1.5 rounded-full leading-tight border border-emerald-100">
+                            <span className="inline-block text-xs md:text-sm font-semibold text-emerald-500 bg-emerald-50 px-3 py-1.5 rounded-full leading-tight border border-emerald-100">
                                 {rightOption} →
                             </span>
                         </div>
@@ -148,7 +148,7 @@ export default function SwipeCard({ options, onSwipe }: SwipeCardProps) {
                 </div>
                 {downOption && (
                     <div className="text-center mt-auto">
-                        <span className="text-[10px] font-semibold text-amber-500 bg-amber-50 px-3 py-1.5 rounded-full border border-amber-100">
+                        <span className="text-xs md:text-sm font-semibold text-amber-500 bg-amber-50 px-3 py-1.5 rounded-full border border-amber-100">
                             {downOption} ↓
                         </span>
                     </div>

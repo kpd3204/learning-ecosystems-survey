@@ -94,7 +94,15 @@ export default function FormEngine({ config, onSubmit }: FormEngineProps) {
         const roleQuestion = config.commonInitial.find(q => q.entry_id === 'entry.1923221380');
         const branchIndex = roleQuestion && typeof roleAnswer === 'string' ? roleQuestion.options.indexOf(roleAnswer) : -1;
         const pageHistory = branchIndex >= 0 ? `0,${branchIndex + 1}` : '0';
-        onSubmit(answers, pageHistory);
+
+        const completeAnswers = { ...answers };
+        activeFlow.forEach(q => {
+            if (completeAnswers[q.entry_id] === undefined || completeAnswers[q.entry_id] === '') {
+                completeAnswers[q.entry_id] = 'Not answered';
+            }
+        });
+
+        onSubmit(completeAnswers, pageHistory);
     };
 
     if (!currentQuestion) return null;
