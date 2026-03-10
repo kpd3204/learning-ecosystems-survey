@@ -39,14 +39,7 @@ function App() {
     );
   }
 
-  if (isSubmitting) {
-    return (
-      <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-6">
-        <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-600"></div>
-        <p className="mt-6 text-slate-600 font-medium animate-pulse">Saving responses...</p>
-      </div>
-    );
-  }
+
 
   if (!isStarted) {
     return (
@@ -74,7 +67,17 @@ function App() {
     );
   }
 
-  return <FormEngine config={config} onSubmit={handleSubmit} />;
+  return (
+    <>
+      {isSubmitting && (
+        <div className="fixed inset-0 z-50 bg-slate-50/80 backdrop-blur-sm flex flex-col items-center justify-center p-6">
+          <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-600"></div>
+          <p className="mt-6 text-slate-600 font-medium animate-pulse shadow-sm px-4 py-2 bg-white rounded-full">Saving responses...</p>
+        </div>
+      )}
+      <FormEngine config={config} onSubmit={handleSubmit} />
+    </>
+  );
 }
 
 export default App;

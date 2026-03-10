@@ -37,7 +37,9 @@ export async function submitToGoogleForm(formId: string, answers: Record<string,
         if (Array.isArray(value)) {
           value.forEach(v => formData.append(key, v));
         } else {
-          formData.append(key, value as string);
+          // If the string is totally empty, supply a default so Google Forms doesn't reject if strictly required
+          const stringVal = value as string;
+          formData.append(key, stringVal && stringVal.trim() !== '' ? stringVal : 'Not answered');
         }
       });
 

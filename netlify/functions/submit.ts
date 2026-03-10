@@ -34,7 +34,8 @@ export default async (req: Request) => {
             if (Array.isArray(value)) {
                 value.forEach(v => formData.append(key, String(v)));
             } else {
-                formData.append(key, String(value));
+                const stringVal = String(value);
+                formData.append(key, stringVal && stringVal.trim() !== '' && stringVal !== 'undefined' ? stringVal : 'Not answered');
             }
         });
 
