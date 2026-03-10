@@ -138,6 +138,7 @@ export default function FormEngine({ config, onSubmit }: FormEngineProps) {
                 {/* Navigation Footer */}
                 <div className="p-6 md:px-12 border-t border-slate-100 flex justify-between items-center bg-white/50 backdrop-blur-sm">
                     <button
+                        type="button"
                         onClick={handlePrev}
                         disabled={currentIndex === 0}
                         className="text-slate-400 hover:text-slate-600 font-medium px-4 py-2 rounded-lg transition-colors disabled:opacity-30"
@@ -147,6 +148,7 @@ export default function FormEngine({ config, onSubmit }: FormEngineProps) {
 
                     {!isLastQuestion ? (
                         <button
+                            type="button"
                             onClick={handleNext}
                             className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 md:px-8 py-3 rounded-xl shadow-md shadow-blue-600/20 transition-all transform active:scale-95 flex items-center gap-2 text-sm md:text-base"
                         >
@@ -154,6 +156,7 @@ export default function FormEngine({ config, onSubmit }: FormEngineProps) {
                         </button>
                     ) : (
                         <button
+                            type="button"
                             onClick={handleSubmit}
                             className="bg-slate-900 hover:bg-slate-800 text-white font-medium px-6 md:px-8 py-3 rounded-xl shadow-md transition-all transform active:scale-95 text-sm md:text-base"
                         >
@@ -214,6 +217,7 @@ function QuestionRenderer({ question, currentAnswer, onChange, onEnter }: {
                     const isSelected = currentAnswer === opt;
                     return (
                         <motion.button
+                            type="button"
                             key={i}
                             whileHover={{ scale: 1.01, x: 4 }}
                             whileTap={{ scale: 0.99 }}
